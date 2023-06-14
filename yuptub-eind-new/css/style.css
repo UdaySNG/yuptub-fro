@@ -1,0 +1,50 @@
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 2rem;
+}
+
+header {
+  background-color: purple;
+  width: 100%;
+  height: 10rem;
+}
+
+.view__body {
+  display: flex;
+  background: purple;
+  width: 20rem;
+  height: 20rem;
+}
+
+.aside__side {
+  display: flex;
+  width: 25rem;
+  height: 50rem;
+  justify-content: center;
+  background: rgb(92, 0, 66);
+  float: right;
+  margin-top: 2rem;
+  margin-right: 4rem; /* Voeg wat ruimte toe tussen het element en de hoofdinhoud */
+}
+
+.video__tag {
+  cursor: pointer;
+  background-color: rgb(158, 158, 158);
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 3rem;
+  height: 12rem;
+  width: 19rem;
+}
+
+/*# sourceMappingURL=style.css.map */
